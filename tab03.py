@@ -98,8 +98,6 @@ def main_page(username):
         unsafe_allow_html=True,
     )
     col1, col2, col3, col4, col5 = st.columns(5)
-    image = Image.open('LOGO HOPCHARGE-03.png')
-    col1.image(image, use_column_width=True)
     col5.write("\n")
     if col5.button("Logout"):
         st.session_state.logged_in = False
