@@ -50,7 +50,7 @@ def check_credentials():
     image = Image.open('LOGO HOPCHARGE-03.png')
     col2.image(image, use_column_width=True)
     col2.markdown(
-        "<h2 style='text-align: center;'>ECMS Login</h2>", unsafe_allow_html=True)
+        "<h2 style='text-align: center;'>OPS Login</h2>", unsafe_allow_html=True)
     image = Image.open('roaming vans.png')
     col1.image(image, use_column_width=True)
 
